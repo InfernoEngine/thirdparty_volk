@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<Library>
+		<Name>thirdparty_volk</Name>
+		<SourceRoot>.</SourceRoot>
+		<ExportedIncludeDirectory>.</ExportedIncludeDirectory>
+		<LocalIncludeDirectory>.</LocalIncludeDirectory>
+		<ThirdParty>true</ThirdParty>
+
+		<ThirdPartySourceFile>
+			volk.c
+		</ThirdPartySourceFile>
+
+		<Dependency>thirdparty_vulkan</Dependency>
+	</Library>
+	
+</Module>
